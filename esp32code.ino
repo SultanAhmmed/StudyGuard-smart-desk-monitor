@@ -8,8 +8,8 @@
 #define WIFI_PASSWORD  "12345678"
 
 // ── Firebase credentials ──────────────────────────────────────
-#define API_KEY        "AIzaSyCC_Nd8a27c5RqTk0TRmilPcb3sJyi0Pi8"
-#define DATABASE_URL   "smart-desk-monitor-4b9f2-default-rtdb.asia-southeast1.firebasedatabase.app/"
+#define API_KEY        "paste_your_web_api_key_here"
+#define DATABASE_URL   "paste_your_database_url_here/" // e.g. your-project-id.firebaseio.com/
 
 // ── Pin definitions ───────────────────────────────────────────
 #define TRIG_PIN       5
