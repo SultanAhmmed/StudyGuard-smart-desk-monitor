@@ -7,7 +7,7 @@ import requests
 from concurrent.futures import ThreadPoolExecutor
 
 # ── Firebase ──────────────────────────────────────────────────
-DATABASE_URL = "https://smart-desk-monitor-4b9f2-default-rtdb.asia-southeast1.firebasedatabase.app"
+DATABASE_URL = database_url"
 fb_executor  = ThreadPoolExecutor(max_workers=10) # Increased workers to prevent queue bottlenecks
 
 # Create a persistent session
