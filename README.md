@@ -24,25 +24,18 @@ The gap is between "time at desk" and "time actually learning." Existing IoT lam
 
 The setup is simple: an ESP32 with ultrasonic sensor sits on the desk, the LED lights up automatically when you sit, and the laptop runs MediaPipe to track eye closure in real time.
 
-Figure 1.0: Hardware Output
-![Live Detection](./images/hardware%20result.jpg)
-<i>This figure shows the physical hardware setup and real-time operation of the system.</i>
+| Hardware Output | Software Output |
+|:---------------:|:---------------:|
+| <img src="images/hardware%20result.jpg" width="350"> | <img src="images/software%20output.png" width="350"> |
+| *This figure shows the physical hardware setup and real-time operation of the system.* | *This figure demonstrates the software-side detection and processing results.* |
 
----
+<br>
 
-Figure 2.0: Software Output
-![Live Detection](./images/software%20output.png)
+| Web Dashboard |
+|:-------------:|
+| <img src="images/webdashbord.jpg" width="500"> |
+| *This figure presents the web-based dashboard used for monitoring and visualization.* |
 
-<i>This figure demonstrates the software-side detection and processing results.</i>
-
----
-
-Figure 3.0: Web Dashboard
-![Live Detection](./images/webdashbord.jpg)
-
-This figure presents the web-based dashboard used for monitoring and visualization.
-
----
 
 ## Solution Approach
 
